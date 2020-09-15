@@ -1,0 +1,52 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Mulish', sans-serif;
+}
+
+/* Utilities */
+.container-large {
+    width: 1197px;
+    margin: 0 auto;
+}
+
+.text-white {
+    color: #FFFFFF;
+}
+
+.text-black {
+    color: #333333
+}
+
+.bkg-grey {
+    background: #F5FAFE;    
+}
+
+.bkg-white {
+    background: #FFFFFF;    
+}
+
+.bkg-blue {
+    background: #0A223D;    
+}
+
+.btn {
+    background: #EC1F46;
+    border-radius: 5px;
+}
+
+.btn-small {
+    padding: 5px 10px;
+    font-size: 12px;
+}
+
+.btn-big {
+    padding: 10px 20px;
+    font-size: 14px;
+}
+
+/* HEADER */

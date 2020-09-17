@@ -3,6 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Luckiest+Guy&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Mulish:wght@300;400;600;700&display=swap" rel="stylesheet">
     <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.9.0/css/all.min.css'/>
     <link rel="stylesheet" href="assets/styles/main.css">
@@ -10,17 +11,18 @@
 </head>
 <body>
     <header class="header">
-        <div class="header__top font-small bkg-grey">
-            <div class="container-large u__flex">
-                <div class="header__top__left u__flex">
-                    <div class="header__top__left__questions font-bold">
+        <!--Top Header-->
+        <div class="header__top u-fontSmall u-bkgLightGrey">
+            <div class="u-containerLarge u-flex">
+                <div class="header__top__left u-flex">
+                    <div class="header__top__left__questions u-fontBold">
                         Questions? Need Help?
                     </div>
                     <div class="header__top__left__phone">
                         Call us on (+123) 456 1500
                     </div>
                 </div>
-                <div class="header__top__right u__flex">
+                <div class="header__top__right u-flex u-marginLeftAuto">
                     <div class="header__top__right__gift">
                         <i class="header__top__right__gift__icon fas fa-gift"></i>
                         <span class="header__top__right__gift__text">BTP Gift Card</span>
@@ -32,6 +34,40 @@
                 </div>
             </div>
         </div>
+
+        <!--Middle Header-->
+        <div class="header__middle">
+            <div class="u-containerLarge u-flex u-flexAlignItemsCenter">
+                <div class="header__middle__left u-flex u-flexAlignItemsCenter">
+                    <div class="header__middle__left__logo">
+                        <h3 class="header__middle__left__logo__text u-logoFont">Best <span class="u-textRed">Tour</span> Plan</h3>
+                    </div>
+                    <div class="header__middle__left__search">
+                        <input class="header__middle__left__search__bar u-bkgLightGrey u-mainFont u-textGrey" type="search" placeholder="Search Location">
+                        <button type="submit" class="header__middle__left__search__button u-textWhite"><i class="fas fa-search"></i></button>
+                    </div>
+                </div>
+                <div class="header__middle__right u-flex u-flexAlignItemsCenter u-marginLeftAuto">
+                    <div class="header__middle__right__cart u-textGrey">
+                        <i class="header__middle__right__cart__icon fas fa-shopping-cart"></i>
+                    </div>
+                    <div class="header__middle__right__profile u-flex u-flexAlignItemsCenter">
+                        <div class="header__middle__right__profile__pic">
+                            <img class="header__middle__right__profile__pic__img" src="assets/images/Ellipse 1.png" alt="profile pic">
+                        </div>
+                        <div class="header__middle__right__profile__name u-flex u-flexAlignItemsCenter">
+                            <div class="header__middle__right__profile__name__text">
+                                Nathan
+                            </div>
+                            <div class="header__middle__right__profile__name__dropdown">
+                                <i class="fas fa-chevron-down"></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
     </header>
 </body>
 </html>

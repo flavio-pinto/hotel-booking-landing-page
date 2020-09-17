@@ -9,69 +9,89 @@ body {
 }
 
 /* Utilities */
-.container-large {
+.u-containerLarge {
     width: 1197px;
     margin: 0 auto;
 }
 
-.font-small {
+.u-fontSmall {
     font-size: 10px;
 }
 
-.font-bold {
+.u-fontBold {
     font-weight: 700;
 }
 
-.text-white {
+.u-textWhite {
     color: #FFFFFF;
 }
 
-.text-black {
+.u-textGrey {
     color: #333333
 }
 
-.bkg-grey {
+.u-textRed {
+    color: #EC1F46;
+}
+
+.u-mainFont {
+    font-family: 'Mulish', sans-serif;
+}
+
+.u-logoFont {
+    font-family: 'Luckiest Guy', cursive;
+}
+
+.u-bkgLightGrey {
     background: #F5FAFE;    
 }
 
-.bkg-white {
+.u-bkgWhite {
     background: #FFFFFF;    
 }
 
-.bkg-blue {
+.u-bkgBlue {
     background: #0A223D;    
 }
 
-.btn {
+.u-btn {
     background: #EC1F46;
     border-radius: 5px;
 }
 
-.btn-small {
+.u-btnSmall {
     padding: 5px 10px;
     font-size: 12px;
 }
 
-.btn-big {
+.u-btnBig {
     padding: 10px 20px;
     font-size: 14px;
 }
 
-.u__flex {
+.u-flex {
     display: flex;
 }
 
-/* HEADER */
+.u-flexAlignItemsCenter {
+    align-items: center;
+}
+
+.u-marginLeftAuto {
+    margin-left: auto;
+}
+
+/**************************
+**********HEADER***********
+**************************/
+
+/* Header top */
 .header__top {
     padding: 30px 0;
 }
 
 .header__top__left__questions {
     margin-right: 10px;
-}
-
-.header__top__right {
-    margin-left: auto;
 }
 
 .header__top__right__gift {
@@ -81,4 +101,71 @@ body {
 .header__top__right__gift__icon,
 .header__top__right__loyalty__icon {
     margin-right: 15px;
+}
+
+/* Header middle */
+.header__middle {
+    padding: 40px 0;
+}
+
+.header__middle__left__logo {
+    margin-right: 100px;
+}
+
+.header__middle__left__logo__text {
+    font-size: 24px;
+}
+
+.header__middle__left__search__bar,
+.header__middle__left__search__button {
+    border: 0;
+    height: 40px;
+}
+
+.header__middle__left__search__bar {
+    width: 285px;
+    margin-right: -7px;
+    border-radius: 5px 0 0 5px;
+    padding-left: 20px;
+    font-size: 12px;
+    font-weight: 600;
+}
+
+.header__middle__left__search__button {
+    border-radius: 0 5px 5px 0;
+    background: #EC1F46;
+    padding: 10px 25px;
+    font-size: 16px;
+}
+
+.header__middle__right__cart {
+    margin-right: 50px;
+}
+
+.header__middle__right__cart__icon {
+    font-size: 20px;
+}
+
+.header__middle__right__cart__icon::after{
+    content: '2';
+    font-size: 12px;
+    font-weight: 300;
+    background: red;
+    color: #FFFFFF;
+    border-radius: 50%;
+    padding: 3px 6px;
+    position: relative;
+    left: -8px;
+    top: -10px;
+    opacity: 0.9;
+}
+
+.header__middle__right__profile__pic {
+    margin-right: 20px;
+    border-radius: 50%;
+}
+
+.header__middle__right__profile__name__text {
+    margin-right: 20px;
+    font-size: 14px;
 }

@@ -8,6 +8,14 @@ body {
     font-family: 'Mulish', sans-serif;
 }
 
+ul {
+    list-style: none;
+}
+
+li a {
+    text-decoration: none;
+}
+
 /* Utilities */
 .u-containerLarge {
     width: 1197px;
@@ -75,6 +83,10 @@ body {
 
 .u-flexAlignItemsCenter {
     align-items: center;
+}
+
+.u-flexJustifyBetween {
+    justify-items: space-between;
 }
 
 .u-marginLeftAuto {
@@ -168,4 +180,12 @@ body {
 .header__middle__right__profile__name__text {
     margin-right: 20px;
     font-size: 14px;
+}
+
+.header__nav__list {
+    justify-content: space-between;
+    text-transform: uppercase;
+    font-size: 14px;
+    font-weight: 700;
+    padding: 33px 0;
 }

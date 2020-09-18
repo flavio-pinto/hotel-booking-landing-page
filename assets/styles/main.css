@@ -12,7 +12,7 @@ ul {
     list-style: none;
 }
 
-li a {
+a {
     text-decoration: none;
 }
 
@@ -36,6 +36,10 @@ li a {
 
 .u-textGrey {
     color: #333333
+}
+
+.u-textBlue {
+    color: #0A223D;
 }
 
 .u-textRed {
@@ -182,10 +186,64 @@ li a {
     font-size: 14px;
 }
 
+/* Header nav */
+
 .header__nav__list {
     justify-content: space-between;
     text-transform: uppercase;
     font-size: 14px;
     font-weight: 700;
     padding: 33px 0;
+}
+
+/**********************************
+***********MAIN CONTENT************
+**********************************/
+
+/* Hotel info top */
+
+.hotel-info__top {
+    padding: 10px 0;
+}
+
+.hotel-info__top__breadcrumb {
+    margin-bottom: 45px;
+}
+
+/* Hotel info main */
+
+.hotel-info__top__main__title__stars {
+    margin-bottom: 5px;
+    font-size: 8px;
+    color: #F2994A;
+}
+
+.hotel-info__top__main__title__stars__icon {
+    margin-right: 3px;
+}
+
+.hotel-info__top__main__title__name__heading {
+    margin-right: 15px;
+    text-transform: uppercase;
+}
+
+.hotel-info__top__main__title__name__offer {
+    font-size: 10px;
+}
+
+.hotel-info__top__main__title__package {
+    font-size: 12px;
+}
+
+.hotel-info__top__main__rating__button {
+    text-align: center;
+}
+
+.hotel-info__top__main__rating__button__top,
+.hotel-info__top__main__rating__button__bottom__max {
+    font-size: 10px;
+}
+
+.hotel-info__top__main__rating__button__bottom {
+    font-size: 14px;
 }

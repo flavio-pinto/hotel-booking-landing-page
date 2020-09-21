@@ -43,7 +43,7 @@
                         <h3 class="header__middle__left__logo__text u-logoFont">Best <span class="u-textRed">Tour</span> Plan</h3>
                     </div>
                     <div class="header__middle__left__search">
-                        <input class="header__middle__left__search__bar u-bkgLightGrey u-mainFont u-textGrey" type="search" placeholder="Search Location">
+                        <input class="header__middle__left__search__bar u-bkgLightGrey u-mainFont u-fontMidSmall u-textGrey" type="search" placeholder="Search Location">
                         <button type="submit" class="header__middle__left__search__button u-textWhite"><i class="fas fa-search"></i></button>
                     </div>
                 </div>
@@ -71,7 +71,7 @@
         <!-- Bottom Header Nav -->
         <div class="header__nav u-bkgBlue">
             <div class="u-containerLarge">
-                <ul class="header__nav__list u-flex">
+                <ul class="header__nav__list u-flex u-flexJustifyBetween">
                     <li class="header__nav__list__item">
                         <a class="header__nav__list__item__link u-textWhite" href="#">All Deals</a>
                     </li>
@@ -99,38 +99,85 @@
     </header>
 
     <!-- MAIN CONTENT -->
-    <main class="hotel-info u-bkgLightGrey">
-        <div class="u-containerLarge">
-            <section class="hotel-info__top">
-                <div class="hotel-info__top__breadcrumb">
-                    <a class="hotel-info__top__breadcrumb__links u-fontSmall u-textBlue" href="#">Home / </a>
-                    <a class="hotel-info__top__breadcrumb__links u-fontSmall u-textBlue" href="#">Flash Offers / </a>
-                    <a class="hotel-info__top__breadcrumb__links u-fontSmall u-textBlue" href="#">Grand Hilton Hotel</a>
+    <main class="hotel">
+        <section class="hotel__top u-bkgLightGrey">
+            <div class="u-containerLarge">
+                <div class="hotel__top__breadcrumb">
+                    <a class="hotel__top__breadcrumb__links u-fontSmall u-textBlue" href="#">Home / </a>
+                    <a class="hotel__top__breadcrumb__links u-fontSmall u-textBlue" href="#">Flash Offers / </a>
+                    <a class="hotel__top__breadcrumb__links u-fontSmall u-textBlue" href="#">Grand Hilton Hotel</a>
                 </div>
-                <div class="hotel-info__top__main u-flex u-flexAlignItemsCenter">
-                    <div class="hotel-info__top__main__title">
-                        <div class="hotel-info__top__main__title__stars">
-                            <i class="hotel-info__top__main__title__stars__icon fas fa-star"></i><i class="hotel-info__top__main__title__stars__icon fas fa-star"></i><i class="hotel-info__top__main__title__stars__icon fas fa-star"></i><i class="hotel-info__top__main__title__stars__icon fas fa-star"></i><i class="hotel-info__top__main__title__stars__icon fas fa-star"></i>
+                <div class="hotel__top__main u-flex u-flexAlignItemsCenter">
+                    <div class="hotel__top__main__title">
+                        <div class="hotel__top__main__title__stars">
+                            <i class="hotel__top__main__title__stars__icon fas fa-star"></i><i class="hotel__top__main__title__stars__icon fas fa-star"></i><i class="hotel__top__main__title__stars__icon fas fa-star"></i><i class="hotel__top__main__title__stars__icon fas fa-star"></i><i class="hotel__top__main__title__stars__icon fas fa-star"></i>
                         </div>
-                        <div class="hotel-info__top__main__title__name u-flex u-flexAlignItemsCenter">
-                            <h1 class="hotel-info__top__main__title__name__heading">Grand Hilton Hotel</h1>
-                            <div class="hotel-info__top__main__title__name__offer u-btn u-btnSmall u-textWhite">Flash Offer</div>
+                        <div class="hotel__top__main__title__name u-flex u-flexAlignItemsCenter">
+                            <h1 class="hotel__top__main__title__name__heading">Grand Hilton Hotel</h1>
+                            <div class="hotel__top__main__title__name__offer u-btn u-btnSmall u-textWhite">Flash Offer</div>
                         </div>
-                        <div class="hotel-info__top__main__title__package">
+                        <div class="hotel__top__main__title__package">
                             Half-Board/ All Inclusive + Complimentary Activities + Child Stays Free
                         </div>
                     </div>
-                    <div class="hotel-info__top__main__rating u-marginLeftAuto">
-                        <div class="hotel-info__top__main__rating__button u-btn u-btnSmall u-textWhite">
-                            <div class="hotel-info__top__main__rating__button__top">User Ratings</div>
-                            <div class="hotel-info__top__main__rating__button__bottom u-fontBold">
-                                4.5/<span class="hotel-info__top__main__rating__button__bottom__max">5</span>
+                    <div class="hotel__top__main__rating u-marginLeftAuto">
+                        <div class="hotel__top__main__rating__button u-btn u-btnSmall u-textWhite">
+                            <div class="hotel__top__main__rating__button__top">User Ratings</div>
+                            <div class="hotel__top__main__rating__button__bottom u-fontBold">
+                                4.5/<span class="hotel__top__main__rating__button__bottom__max">5</span>
                             </div>
                         </div>
                     </div>
                 </div>
-            </section>
-        </div>
+            </div>
+        </section>
+        <section class="hotel__bottom u-textWhite">
+            <div class="u-containerLarge u-flex u-flexJustifyBetween u-gap30">
+                <div class="hotel__bottom__image">
+                    <img src="assets/images/Rectangle 5.png" alt="hotel image">
+                </div>
+                <div class="hotel__bottom__infobox u-flex u-flexCol u-flexJustifyBetween u-gap30">
+                    <div class="hotel__bottom__infobox__booking u-flex u-flexCol u-flexJustifyBetween u-bkgBlue">
+                        <div class="hotel__bottom__infobox__booking__top u-flex u-flexJustifyBetween u-flexAlignItemsCenter">
+                            <div class="hotel__bottom__infobox__booking__top__left">
+                                <small class="hotel__bottom__infobox__booking__top__left__before-price u-fontSmall">
+                                    price starts as
+                                </small>
+                                <h3 class="hotel__bottom__infobox__booking__top__left__price">
+                                    $ 8,500
+                                </h3>
+                                <small class="hotel__bottom__infobox__booking__top__left__after-price">
+                                    per room / night
+                                </small>
+                            </div>
+                            <div class="hotel__bottom__infobox__booking__top__right u-fontMidSmall">
+                                <div class="hotel__bottom__infobox__booking__top__right__guests u-flex u-flexAlignItemsCenter">
+                                    <i class="far fa-user"></i><span>2 x Guests</span>
+                                </div>
+                                <div class="hotel__bottom__infobox__booking__top__right__rooms u-flex u-flexAlignItemsCenter">
+                                    <i class="fas fa-home"></i><span>1 x Room</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="hotel__bottom__infobox__booking__phone u-flex">
+                            <span class="hotel__bottom__infobox__booking__phone__text">
+                                Quick Booking
+                            </span>
+                            <span class="hotel__bottom__infobox__booking__phone__num">
+                                <i class="fas fa-phone-alt"></i>
+                                12100
+                            </span>
+                        </div>
+                        <div class="hotel__bottom__infobox__booking__button u-btn">
+                            View Other Options
+                        </div>
+                    </div>
+                    <div class="hotel__bottom__infobox__map">
+                        <img src="assets/images/Map.png" alt="map">
+                    </div>
+                </div>
+            </div>
+        </section>
     </main>
 </body>
 </html>

@@ -318,8 +318,12 @@ a {
 **********OTHER PACKAGES*********
 ********************************/
 
+.other__packages {
+    flex-wrap: wrap;
+}
+
 .other__packages__box {
-    flex-basis: calc(100% / 3 * 2 - 15px);
+    flex-basis: calc(100% / 3 * 2 - 10px);
     height: 500px;
     border-radius: 10px;
 }
@@ -390,4 +394,26 @@ a {
     position: absolute;
     right: 20px;
     bottom: 20px;
+}
+
+.other__packages__box--small {
+    flex-basis: calc(100% / 3 - 20px);
+    height: 500px;
+    border-radius: 10px;
+}
+
+.other__packages__box--small .other__packages__box__image,
+.other__packages__box--small .other__packages__box__info {
+    height: 250px;
+    width: 100%;
+}
+
+.other__packages__box--small .other__packages__box__info {
+    border-radius: 0 0 10px 10px;
+    padding: 30px 15px 15px 30px;
+}
+
+.other__packages__box--small .other__packages__box__info .other__packages__box__info__name,
+.other__packages__box--small .other__packages__box__info .other__packages__box__info__location {
+    margin-bottom: 25px;
 }

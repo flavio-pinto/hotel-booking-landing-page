@@ -318,71 +318,75 @@ a {
 **********OTHER PACKAGES*********
 ********************************/
 
-.other__packages {
+.other__packages__box {
     flex-basis: calc(100% / 3 * 2 - 15px);
     height: 500px;
     border-radius: 10px;
 }
 
-.other__packages__image,
-.other__packages__info {
+.other__packages__box__image,
+.other__packages__box__info {
     width: 50%;
 }
 
-.other__packages__image {
-    background-image: url("../images/hotel-1.png");
-    background-repeat: no-repeat;
-    background-size: cover;
+.other__packages__box__image {
+    overflow: hidden;
 }
 
-.other__packages__info {
+.other__packages__box__image img {
+    width: 100%;
+    height: auto;
+}
+
+.other__packages__box__info {
     padding: 40px 20px 20px 40px;
     position: relative;
+    border-radius: 0 10px 10px 0;
 }
 
-.other__packages__info__rating {
+.other__packages__box__info__rating {
     color: #F2994A;
     font-size: 8px;
     margin-bottom: 5px;
 }
 
-.other__packages__info__name {
+.other__packages__box__info__name {
     margin-bottom: 30px;
     font-size: 18px;
 }
 
-.other__packages__info__description {
+.other__packages__box__info__description {
     margin-bottom: 50px;
     font-size: 14px;
     font-weight: 300;
     line-height: 25px;
 }
 
-.other__packages__info__location {
+.other__packages__box__info__location {
     font-size: 12px;
     font-weight: 300;
     margin-bottom: 50px;
 }
 
-.other__packages__info__location li:not(:last-child) {
+.other__packages__box__info__location li:not(:last-child) {
     margin-bottom: 10px;
 }
 
-.other__packages__info__location li i {
+.other__packages__box__info__location li i {
     margin-right: 10px;
 }
 
-.other__packages__info__price__original {
+.other__packages__box__info__price__original {
     font-size: 14px;
     text-decoration: line-through;
 }
 
-.other__packages__info__price__discounted {
+.other__packages__box__info__price__discounted {
     font-size: 24px;
     font-weight: 700;
 }
 
-.other__packages__info__book {
+.other__packages__box__info__book {
     position: absolute;
     right: 20px;
     bottom: 20px;

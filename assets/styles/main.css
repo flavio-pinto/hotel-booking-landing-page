@@ -519,5 +519,64 @@ a {
 ************************************/
 
 .newsletter {
-    
+    height: 260px;
+    background-image: url('../images/Rectangle\ 25.png');
+    position: relative;
+}
+
+.newsletter::before {
+    display: block;
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(10, 34, 61, 0.8);
+}
+
+.newsletter__content {
+    margin: 0 auto;
+    width: 730px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.newsletter__content__subscribe h4 {
+    font-size: 24px;
+    font-weight: 300;
+}
+
+.newsletter__content__subscribe h3 {
+    font-size: 36px;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+.newsletter__content__form {
+    width: 50%;
+    height: 55px;
+}
+
+.newsletter__content__form__input,
+.newsletter__content__form__button {
+    height: 100%;
+}
+
+.newsletter__content__form__input {
+    width: 80%;
+    margin-right: -20px;
+    padding-left: 30px;
+    color: #BDBDBD;
+    border: none;
+    border-radius: 8px 0 0 8px;
+}
+
+.newsletter__content__form__button {
+    width: 20%;
+    font-size: 12px;
+    border: none;
+    border-radius: 0 8px 8px 0;
 }

@@ -442,3 +442,82 @@ a {
 .other__packages__box--small .other__packages__box__info .other__packages__box__info__location {
     margin-bottom: 25px;
 }
+
+/*********************************
+**************REVIEWS*************
+*********************************/
+
+.reviews {
+    text-align: center;
+    padding: 50px 0 80px;
+}
+
+.reviews__main-title {
+    margin-bottom: 125px;
+    font-size: 36px;
+    font-weight: 700;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.reviews__box {
+    margin: 0 auto;
+    padding: 50px 100px 30px;
+    width: 730px;
+    font-size: 12px;
+    position: relative;
+}
+
+.reviews__box__icon {
+    position: absolute;
+    top: -45px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.reviews__box__name {
+    margin-bottom: 10px;
+}
+
+.reviews__box__date {
+    margin-bottom: 4px;
+    font-size: 10px;
+}
+
+.reviews__box__rating {
+    margin-bottom: 35px;
+    color: #F2994A;
+    font-size: 8px;
+}
+
+.reviews__box__rating i:not(:last-child) {
+    margin-right: 2px;
+}
+
+.reviews__box__body {
+    text-align: justify;
+    line-height: 18px;
+}
+
+.reviews__box__left-arrow,
+.reviews__box__right-arrow {
+    font-size: 20px;
+    position: absolute;
+    top: 100px;
+}
+
+.reviews__box__left-arrow {
+    left: -170px;
+}
+
+.reviews__box__right-arrow {
+    right: -170px;
+}
+
+/************************************
+**************NEWSLETTER*************
+************************************/
+
+.newsletter {
+    
+}

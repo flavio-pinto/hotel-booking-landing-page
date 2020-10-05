@@ -626,3 +626,45 @@ a {
     padding: 7px 20px;
     font-size: 12px;
 }
+
+/********************************
+**************FOOTER*************
+********************************/
+
+.footer {
+    padding: 110px 0 40px;
+}
+
+.footer__top__logo,
+.footer__top__list {
+    flex-basis: 25%;
+}
+
+.footer__top__logo {
+    font-size: 40px;
+}
+
+.footer__top__list__title {
+    text-transform: uppercase;
+    margin-bottom: 20px;
+}
+
+.footer__top__list__title h3 {
+    display: inline-block;
+    margin-top: 25px;
+    margin-right: 30px;
+}
+
+.footer__top__list__title i {
+    color: #BDBDBD;
+}
+
+.footer__top__list__title i:not(:last-child) {
+    margin-right: 10px;
+}
+
+.footer__top__list__item {
+    font-size: 14px;
+    line-height: 22px;
+    color: #BDBDBD;
+}

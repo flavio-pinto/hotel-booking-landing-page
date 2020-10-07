@@ -673,7 +673,18 @@ a {
     color: #BDBDBD;
 }
 
-.footer__bottom__contact__title {
+.footer__bottom {
+    align-items: flex-start;
+    margin-bottom: 100px;
+}
+
+.footer__bottom__contact,
+.footer__bottom__form {
+    flex-basis: 50%;
+}
+
+.footer__bottom__contact__title,
+.footer__bottom__form__title {
     margin-bottom: 25px;
     text-transform: uppercase;
 }
@@ -687,4 +698,64 @@ a {
 .footer__bottom__contact__address,
 .footer__bottom__contact__phone {
     margin-bottom: 30px;
+}
+
+.footer__bottom__message__form {
+    flex-wrap: wrap;
+    position: relative;
+}
+
+.footer__bottom__message__form__name,
+.footer__bottom__message__form__phone {
+    flex-basis: calc(50% - 15px);
+    height: 50px;
+    font-size: 12px;
+}
+
+.footer__bottom__message__form__body {
+    flex-basis: 100%;
+    height: 123px;
+    padding-top: 20px;
+    font-size: 12px;
+}
+
+.footer__bottom__message__form__name,
+.footer__bottom__message__form__phone,
+.footer__bottom__message__form__body {
+    border-radius: 5px;
+    padding-left: 30px;
+}
+
+.footer__bottom__message__form__submit {
+    padding: 15px 60px;
+}
+
+.footer__bottom__message__form__required {
+    position: absolute;
+    right: 0;
+    bottom: 20px;
+}
+
+.footer__conditions__empty,
+.footer__conditions__list,
+.footer__conditions__credit-cards {
+    flex-basis: calc(100% / 3);
+}
+
+.footer__conditions__list,
+.footer__conditions__list__item,
+.footer__conditions__credit-cards {
+    display: inline-block;
+}
+
+.footer__conditions__list {
+    text-align: center;
+}
+
+.footer__conditions__list__item:not(:last-child) {
+    margin-right: 20px;
+}
+
+.footer__conditions__credit-cards {
+    text-align: right;
 }

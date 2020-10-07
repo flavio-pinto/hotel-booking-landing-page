@@ -702,7 +702,7 @@
                 </ul>
             </div>
 
-            <div class="footer__bottom">
+            <div class="footer__bottom u-flex u-gap30">
                 <div class="footer__bottom__contact u-textLightGrey">
                     <h3 class="footer__bottom__contact__title u-textWhite">Contact Details</h3>
                     <p class="footer__bottom__contact__text u-fontMid">
@@ -725,8 +725,29 @@
                         <p>cherly.lawson@example.com</p>
                     </div>
                 </div>
-                <div class="footer__bottom__form">
-                    
+                <div class="footer__bottom__message">
+                    <h3 class="footer__bottom__message__title">Send us a message</h3>
+                    <form class="footer__bottom__message__form u-flex u-gap30" action="">
+                        <input class="footer__bottom__message__form__name" type="text" name="name" id="name" placeholder="Your Full Name*">
+                        <input class="footer__bottom__message__form__phone" type="text" name="phone" id="phone" placeholder="Phone Number*">
+                        <textarea class="footer__bottom__message__form__body" id="message" name="message" placeholder="Write a Message"></textarea>
+                        <input class="footer__bottom__message__form__submit u-btn u-textWhite u-fontMidSmall" type="submit" value="Send">
+                        <span class="footer__bottom__message__form__required u-fontMidSmall">
+                            * Required Fields
+                        </span>
+                    </form>
+                </div>
+            </div>
+
+            <div class="footer__conditions u-flex">
+                <div class="footer__conditions__empty"></div>
+                <ul class="footer__conditions__list u-fontMidSmall">
+                    <li class="footer__conditions__list__item">Disclaimer</li>
+                    <li class="footer__conditions__list__item">Conditions of use</li>
+                    <li class="footer__conditions__list__item">Cancellation policy</li>
+                </ul>
+                <div class="footer__conditions__credit-cards">
+                    <img src="assets/images/image 3.png" alt="credit cards">
                 </div>
             </div>
         </div>

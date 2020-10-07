@@ -12,6 +12,10 @@
     font-size: 12px;
 }
 
+.u-fontMid {
+    font-size: 14px;
+}
+
 .u-fontBold {
     font-weight: 700;
 }
@@ -22,6 +26,10 @@
 
 .u-textGrey {
     color: #333333
+}
+
+.u-textLightGrey {
+    color: #BDBDBD;
 }
 
 .u-textBlue {

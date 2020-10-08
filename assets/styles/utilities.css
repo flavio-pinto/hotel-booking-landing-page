@@ -4,6 +4,10 @@
     margin: 0 auto;
 }
 
+.u-cursorPointer {
+    cursor: pointer;
+}
+
 .u-fontMini {
     font-size: 8px;
 }

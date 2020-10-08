@@ -633,7 +633,7 @@ a {
     color: #BDBDBD;
 }
 
-.footer__top__list__title i:not(:last-child) {
+.footer__top__list__title .social-link:not(:last-child) {
     margin-right: 10px;
 }
 

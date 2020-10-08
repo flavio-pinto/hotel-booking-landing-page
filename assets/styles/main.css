@@ -48,10 +48,6 @@ a {
     margin-right: 100px;
 }
 
-.header__middle__left__logo__text {
-    font-size: 24px;
-}
-
 .header__middle__left__search__bar,
 .header__middle__left__search__button {
     border: 0;
@@ -102,14 +98,12 @@ a {
 
 .header__middle__right__profile__name__text {
     margin-right: 20px;
-    font-size: 14px;
 }
 
 /* Header nav */
 
 .header__nav__list {
     text-transform: uppercase;
-    font-size: 14px;
     font-weight: 700;
     padding: 33px 0;
 }
@@ -132,7 +126,6 @@ a {
 
 .hotel__top__main__title__stars {
     margin-bottom: 5px;
-    font-size: 8px;
     color: #F2994A;
 }
 
@@ -149,10 +142,6 @@ a {
     font-size: 10px;
 }
 
-.hotel__top__main__title__package {
-    font-size: 12px;
-}
-
 .hotel__top__main__rating__button {
     text-align: center;
 }
@@ -160,10 +149,6 @@ a {
 .hotel__top__main__rating__button__top,
 .hotel__top__main__rating__button__bottom__max {
     font-size: 10px;
-}
-
-.hotel__top__main__rating__button__bottom {
-    font-size: 14px;
 }
 
 /* Hotel info boxes */
@@ -201,7 +186,6 @@ a {
 }
 
 .hotel__bottom__infobox__booking__top__left__price {
-    font-size: 24px;
     margin-bottom: -5px;
 }
 
@@ -220,7 +204,6 @@ a {
 
 .hotel__bottom__infobox__booking__phone {
     margin-bottom: 20px;
-    font-size: 18px;
 }
 
 .hotel__bottom__infobox__booking__phone__num {
@@ -361,24 +344,20 @@ a {
 
 .other__packages__box__info__rating {
     color: #F2994A;
-    font-size: 8px;
     margin-bottom: 5px;
 }
 
 .other__packages__box__info__name {
     margin-bottom: 30px;
-    font-size: 18px;
 }
 
 .other__packages__box__info__description {
     margin-bottom: 50px;
-    font-size: 14px;
     font-weight: 300;
     line-height: 25px;
 }
 
 .other__packages__box__info__location {
-    font-size: 12px;
     font-weight: 300;
     margin-bottom: 50px;
 }
@@ -392,12 +371,10 @@ a {
 }
 
 .other__packages__box__info__price__original {
-    font-size: 14px;
     text-decoration: line-through;
 }
 
 .other__packages__box__info__price__discounted {
-    font-size: 24px;
     font-weight: 700;
 }
 
@@ -427,7 +404,6 @@ a {
     position: absolute;
     top: 30px;
     left: 0;
-    font-size: 8px;
     border-radius: 0 5px 5px 0;
     background: #EC1F46;
     padding: 5px 10px;
@@ -464,7 +440,6 @@ a {
     margin: 0 auto;
     padding: 50px 100px 30px;
     width: 730px;
-    font-size: 12px;
     position: relative;
 }
 
@@ -487,7 +462,6 @@ a {
 .reviews__box__rating {
     margin-bottom: 35px;
     color: #F2994A;
-    font-size: 8px;
 }
 
 .reviews__box__rating i:not(:last-child) {
@@ -545,7 +519,6 @@ a {
 }
 
 .newsletter__content__subscribe h4 {
-    font-size: 24px;
     font-weight: 300;
 }
 
@@ -576,7 +549,6 @@ a {
 
 .newsletter__content__form__button {
     width: 20%;
-    font-size: 12px;
     border: none;
     border-radius: 0 8px 8px 0;
 }
@@ -590,7 +562,6 @@ a {
 
 .activities__title {
     margin-bottom: 65px;
-    font-size: 24px;
     text-transform: uppercase;
 }
 
@@ -624,7 +595,6 @@ a {
 
 .activities__items__box__button {
     padding: 7px 20px;
-    font-size: 12px;
 }
 
 /********************************
@@ -668,7 +638,6 @@ a {
 }
 
 .footer__top__list__item {
-    font-size: 14px;
     line-height: 22px;
     color: #BDBDBD;
 }
@@ -709,14 +678,12 @@ a {
 .footer__bottom__message__form__phone {
     flex-basis: calc(50% - 15px);
     height: 50px;
-    font-size: 12px;
 }
 
 .footer__bottom__message__form__body {
     flex-basis: 100%;
     height: 123px;
     padding-top: 20px;
-    font-size: 12px;
 }
 
 .footer__bottom__message__form__name,

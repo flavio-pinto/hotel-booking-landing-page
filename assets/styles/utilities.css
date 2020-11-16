@@ -1,82 +1,78 @@
 /* Utilities */
-.u-containerLarge {
+.u-container-large {
     width: 1197px;
     margin: 0 auto;
 }
 
-.u-cursorPointer {
-    cursor: pointer;
-}
-
-.u-fontMini {
+.u-font-mini {
     font-size: 8px;
 }
 
-.u-fontSmall {
+.u-font-small {
     font-size: 10px;
 }
 
-.u-fontMidSmall {
+.u-font-mid-small {
     font-size: 12px;
 }
 
-.u-fontMid {
+.u-font-mid {
     font-size: 14px;
 }
 
-.u-fontMidLarge {
+.u-font-mid-large {
     font-size: 18px;
 }
 
-.u-font24 {
+.u-font-24 {
     font-size: 24px;
 }
 
-.u-fontBold {
+.u-font-bold {
     font-weight: 700;
 }
 
-.u-textWhite {
+.u-text-white {
     color: #FFFFFF;
 }
 
-.u-textGrey {
+.u-text-grey {
     color: #333333
 }
 
-.u-textLightGrey {
+.u-text-light-grey {
     color: #BDBDBD;
 }
 
-.u-textBlue {
+.u-text-blue {
     color: #0A223D;
 }
 
-.u-textRed {
+.u-text-red {
     color: #EC1F46;
 }
 
-.u-mainFont {
+.u-main-font {
     font-family: 'Mulish', sans-serif;
 }
 
-.u-logoFont {
+.u-logo-font {
     font-family: 'Luckiest Guy', cursive;
 }
 
-.u-displayBlock {
+.u-display-block {
     display: block;
 }
 
-.u-bkgLightGrey {
+.u-bkg-light-grey {
     background: #F5FAFE;
 }
 
-.u-bkgWhite {
+.u-bkg-white {
     background: #FFFFFF;
 }
 
-.u-bkgBlue {
+.u-bkg-blue {
     background: #0A223D;
 }
 
@@ -86,12 +82,12 @@
     text-align: center;
 }
 
-.u-btnSmall {
+.u-btn-small {
     padding: 5px 10px;
     font-size: 12px;
 }
 
-.u-btnBig {
+.u-btn-big {
     padding: 10px 20px;
     font-size: 14px;
 }
@@ -100,35 +96,35 @@
     display: flex;
 }
 
-.u-flexCol {
+.u-flex-col {
     flex-direction: column;
 }
 
-.u-flexAlignItemsCenter {
+.u-flex-align-items-center {
     align-items: center;
 }
 
-.u-flexJustifyBetween {
+.u-flex-justify-between {
     justify-content: space-between;
 }
 
-.u-flexJustifyAround {
+.u-flex-justify-around {
     justify-content: space-around;
 }
 
-.u-gap30 {
+.u-gap-30 {
     gap: 30px
 }
 
-.u-marginLeftAuto {
+.u-margin-left-auto {
     margin-left: auto;
 }
 
-.u-tableTopBar {
+.u-table-top-bar {
     border-radius: 5px 5px 0 0;
     padding: 15px 15px;
 }
 
-.u-tableContentArea {
+.u-table-content-area {
     border-radius: 0 0 5px 5px;
 }

@@ -494,7 +494,7 @@ a {
 
 .newsletter {
     height: 260px;
-    background-image: url('../images/Rectangle\ 25.png');
+    background-image: url('../images/panoramic-img-newsletter.png');
     position: relative;
 }
 
@@ -574,19 +574,19 @@ a {
 }
 
 .activities__items__box.box1 {
-    background-image: url('../images/Bg.png');
+    background-image: url('../images/other-activity-1.png');
 }
 
 .activities__items__box.box2 {
-    background-image: url('../images/Bg2.png');
+    background-image: url('../images/other-activity-2.png');
 }
 
 .activities__items__box.box3 {
-    background-image: url('../images/Bg3.png');
+    background-image: url('../images/other-activity-3.png');
 }
 
 .activities__items__box.box4 {
-    background-image: url('../images/Bg4.png');
+    background-image: url('../images/other-activity-4.png');
 }
 
 .activities__items__box__title {

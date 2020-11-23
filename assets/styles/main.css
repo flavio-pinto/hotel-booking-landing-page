@@ -90,22 +90,6 @@ a {
     padding-top: 4px;
 }
 
-
-
-/* .header__middle__right__cart__icon::after{
-    content: '2';
-    font-size: 12px;
-    font-weight: 300;
-    background: red;
-    color: #FFFFFF;
-    border-radius: 50%;
-    padding: 3px 6px;
-    position: relative;
-    left: -8px;
-    top: -10px;
-    opacity: 0.9;
-} */
-
 .header__middle__right__profile__pic {
     margin-right: 20px;
     border-radius: 50%;

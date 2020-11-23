@@ -77,7 +77,22 @@ a {
     font-size: 20px;
 }
 
-.header__middle__right__cart__icon::after{
+.header__middle__right__cart__red {
+    display: inline-block;
+    position: relative;
+    top: -17px;
+    left: -13px;
+    background: #EC1F46;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    text-align: center;
+    padding-top: 4px;
+}
+
+
+
+/* .header__middle__right__cart__icon::after{
     content: '2';
     font-size: 12px;
     font-weight: 300;
@@ -89,7 +104,7 @@ a {
     left: -8px;
     top: -10px;
     opacity: 0.9;
-}
+} */
 
 .header__middle__right__profile__pic {
     margin-right: 20px;

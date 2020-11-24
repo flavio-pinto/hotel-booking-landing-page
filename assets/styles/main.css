@@ -209,6 +209,10 @@ a {
     margin-left: auto;
 }
 
+.hotel__bottom__infobox__booking__phone__num__icon {
+    margin-right: 6px;
+}
+
 .hotel__bottom__infobox__booking__button {
     padding: 10px 0;
 }
@@ -223,7 +227,7 @@ a {
 }
 
 .hotel__package__title {
-    margin-bottom: 20px;
+    margin-bottom: 30px;
     text-transform: uppercase;
 }
 
@@ -270,8 +274,30 @@ a {
     transform: translateY(8%);
 }
 
-.summary-item-note {
-    margin-left: 38px;
+.hotel__package__summary__offer__content__right .summary-item {
+    position: relative;
+    top: 4px;
+}
+
+.summary-item__text::before {
+    content:url('../images/circle-check-full.png');
+    margin-right: 20px;
+    vertical-align: middle;
+}
+
+.summary-item__calendar::before {
+    content:url('../images/calendar.png');
+    margin-right: 20px;
+    vertical-align: middle;
+}
+
+.summary-item__note {
+    margin-left: 42px;
+}
+
+.summary-item__text span {
+    display: block;
+    margin-left: 42px;
 }
 
 .hotel__package__summary__details__content {

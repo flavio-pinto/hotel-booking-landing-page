@@ -395,10 +395,6 @@ a {
     margin-bottom: 10px;
 }
 
-.other__packages__box__info__location li i {
-    margin-right: 10px;
-}
-
 .other__packages__box__info__location__address::before {
     content: url('../images/marker-pin.png');
 }
@@ -499,6 +495,10 @@ a {
 }
 
 .reviews__box {
+    background-image: url('../images/quotation-marks-background.png');
+    background-repeat: no-repeat;
+    background-position-x: 10%;
+    background-position-y: 10px;
     margin: 0 auto;
     padding: 50px 100px 30px;
     width: 730px;
@@ -685,17 +685,20 @@ a {
     margin-bottom: 20px;
 }
 
-.footer__top__list__title h3 {
-    display: inline-block;
+.footer__top__list__title--social {
     margin-top: 25px;
+}
+
+.footer__top__list__title--social h3 {
     margin-right: 30px;
+    text-transform: uppercase;
 }
 
-.footer__top__list__title i {
-    color: #BDBDBD;
+.footer__top__list__title--social .social-link {
+    padding-top: 5px;
 }
 
-.footer__top__list__title .social-link:not(:last-child) {
+.footer__top__list__title--social .social-link:not(:last-child) {
     margin-right: 10px;
 }
 

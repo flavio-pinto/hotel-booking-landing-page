@@ -526,7 +526,7 @@ a {
     color: #F2994A;
 }
 
-.reviews__box__rating i:not(:last-child) {
+.reviews__box__rating__star:not(:last-child) {
     margin-right: 2px;
 }
 

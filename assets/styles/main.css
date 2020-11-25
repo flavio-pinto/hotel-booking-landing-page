@@ -280,13 +280,13 @@ a {
 }
 
 .summary-item__text::before {
-    content:url('../images/circle-check-full.png');
+    content: url('../images/circle-check-full.png');
     margin-right: 20px;
     vertical-align: middle;
 }
 
 .summary-item__calendar::before {
-    content:url('../images/calendar.png');
+    content: url('../images/calendar.png');
     margin-right: 20px;
     vertical-align: middle;
 }
@@ -372,6 +372,10 @@ a {
     margin-bottom: 5px;
 }
 
+.other__packages__box__info__rating__star {
+    margin-right: 2px;
+}
+
 .other__packages__box__info__name {
     margin-bottom: 30px;
 }
@@ -394,6 +398,26 @@ a {
 .other__packages__box__info__location li i {
     margin-right: 10px;
 }
+
+.other__packages__box__info__location__address::before {
+    content: url('../images/marker-pin.png');
+}
+
+.other__packages__box__info__location__guests::before {
+    content: url('../images/user-icon-small.png');
+}
+
+.other__packages__box__info__location__rooms::before {
+    content: url('../images/home-icon-small.png');
+}
+
+.other__packages__box__info__location__address::before,
+.other__packages__box__info__location__guests::before,
+.other__packages__box__info__location__rooms::before {
+    vertical-align: middle;
+    margin-right: 10px;
+}
+
 
 .other__packages__box__info__price__original {
     text-decoration: line-through;
@@ -419,6 +443,19 @@ a {
 .other__packages__box--small .other__packages__box__info {
     height: 250px;
     width: 100%;
+}
+
+.other__packages__box .other__packages__box__image {
+    position: relative;
+}
+
+.other__packages__box .other__packages__box__image span {
+    position: absolute;
+    top: 30px;
+    left: 0;
+    border-radius: 0 5px 5px 0;
+    background: #EC1F46;
+    padding: 10px 20px 10px 10px;
 }
 
 .other__packages__box--small .other__packages__box__image {

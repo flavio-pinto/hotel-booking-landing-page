@@ -734,6 +734,15 @@ a {
     margin-bottom: 30px;
 }
 
+.footer__bottom__contact__address__icon {
+    margin-right: 15px;
+}
+
+.footer__bottom__message__title {
+    text-transform: uppercase;
+    margin-bottom: 32px;
+}
+
 .footer__bottom__message__form {
     flex-wrap: wrap;
     position: relative;

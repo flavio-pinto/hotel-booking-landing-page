@@ -92,6 +92,10 @@
     font-size: 14px;
 }
 
+.u-cursor-pointer {
+    cursor: pointer;
+}
+
 .u-flex {
     display: flex;
 }

@@ -15,13 +15,16 @@ In questo Learning Path, ho creato una landing page per la prenotazione di stanz
 * HTML
 
 
-* CSS (modello layout flexbox)
+* CSS (modello layout: flexbox)
 
-### :arrow_forward: Anteprima Pagine Web:
+### :arrow_forward: Anteprima Pagina Web:
 
-
+![](assets/images/preview-best-tour-plan.gif)
 
 
 
 ### :arrow_forward: Link pagina web:
 https://hotel-booking-best-tour-plan.netlify.app/
+
+## Realizzato da: ##
+##### Flavio Pinto

@@ -1,30 +1,30 @@
-# Landing Page per prenotazione stanze hotel
+# Landing Page for hotel packages
 
-> ##### *:open_file_folder:  Nome Progetto Learning Path:  Hotel Booking Landing Page :open_file_folder:*
-
-
-
-****Introduzione:****
-
-In questo Learning Path, ho creato una landing page per la prenotazione di stanze d'hotel.
+> ##### *:open_file_folder:  Project name:  Hotel Booking Landing Page :open_file_folder:*
 
 
 
-### :computer: Tecnologie utilizzate:
+****Introduction:****
+
+Landing page for booking hotel rooms.
+
+
+
+### :computer: Technologies:
 
 * HTML
 
 
-* CSS (modello layout: flexbox)
+* CSS (layout model: flexbox)
 
-### :arrow_forward: Anteprima Pagina Web:
+### :arrow_forward: Preview:
 
 ![](assets/images/preview-best-tour-plan.gif)
 
 
 
-### :arrow_forward: Link pagina web:
+### :arrow_forward: Link webpage:
 https://hotel-booking-best-tour-plan.netlify.app/
 
-## Realizzato da: ##
+## Made by: ##
 ##### Flavio Pinto

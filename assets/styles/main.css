@@ -305,7 +305,7 @@ a {
 }
 
 .hotel__package__summary__details__content__list {
-    width: 223px;
+    width: 237px;
 }
 
 .hotel__package__summary__details__content__top {
@@ -318,6 +318,8 @@ a {
 }
 
 .hotel__package__summary__details__content__list__title {
+    font-size: 13px;
+    font-weight: 600;
     margin-bottom: 18px;
 }
 
@@ -691,6 +693,7 @@ a {
 
 .footer__top__list__title--social h3 {
     margin-right: 30px;
+    margin-bottom: 0;
     text-transform: uppercase;
 }
 
